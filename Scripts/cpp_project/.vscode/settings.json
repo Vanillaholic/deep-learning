@@ -1,0 +1,85 @@
+{
+  "files.defaultLanguage": "cpp", // ctrl+N新建文件后默认的语言
+  "editor.formatOnType": true, // 输入分号(C/C++的语句结束标识)后自动格式化当前这一行的代码
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.acceptSuggestionOnEnter": "on", // 我个人
+  "editor.minimap.enabled": true,
+  "C_Cpp.autocomplete": "default",
+  "[cpp]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.formatOnType": true
+  },
+  "[c]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.formatOnType": true
+  },
+  "code-runner.executorMap": {
+    "cpp": "clear && cd $dir && clang++ *.cpp -o $fileNameWithoutExt -W -Wall  -stdlib=libc++ -std=c++20 -fexec-charset=UTF-8   &&  ./$fileNameWithoutExt",
+    "c": "clear && cd $dir && clang *.c -o $fileNameWithoutExt -W -Wall -std=c11 -fexec-charset=UTF-8   &&  ./$fileNameWithoutExt"
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveAllFilesBeforeRun": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.showExecutionMessage": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.ignoreSelection": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "C_Cpp.clang_format_sortIncludes": true,
+  "files.associations": {
+    "array": "cpp",
+    "atomic": "cpp",
+    "*.tcc": "cpp",
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "deque": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "exception": "cpp",
+    "algorithm": "cpp",
+    "memory": "cpp",
+    "memory_resource": "cpp",
+    "optional": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "fstream": "cpp",
+    "initializer_list": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "new": "cpp",
+    "ostream": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "typeinfo": "cpp"
+  } // 格式化时调整include的顺序（按字母排序）
+}

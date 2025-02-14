@@ -1,0 +1,2 @@
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Requirement already satisfied: numpy in /root/miniconda3/envs/deeplearning/lib/python3.10/site-packages (2.2.2)
