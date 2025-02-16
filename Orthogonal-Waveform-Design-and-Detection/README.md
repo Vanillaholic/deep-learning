@@ -6,15 +6,15 @@
 
 *仿真的序列如下：*
 
-- costas 序列的生成：costas_seq_simulation.mlx
+- costas 序列的仿真：costas_seq_simulation.mlx
 
-- m 序列的生成：m_seq_simlation.mlx
+- m 序列的仿真：m_seq_simlation.mlx
 
-- gold 序列的生成：gold_seq_simlation.mlx
+- gold 序列的仿真：gold_seq_simlation.mlx
 
-- kasami 序列的生成：kasami_seq_simulation.mlx
+- kasami 序列的仿真：kasami_seq_simulation.mlx
 
-- LFM 上下变频信号的生成：lfm_simulation.mlx
+- LFM 上下变频信号的仿真：lfm_simulation.mlx
 
 *信号处理：*
 
